@@ -191,7 +191,7 @@ yearlyReturn(BBDC3.SA, subset=NULL, type='arithmetic', leading=TRUE)
 Dividendo é a distribuição da fração dos lucros de uma empresa a seus acionistas, pagos exclusivamente em dinheiro e isentos de imposto de renda. Cada empresa pode definir em seu estatudo a parcela dos lucros que será distribuida, respeitando o mínimo de 25% definido por lei.
 
 ```{r}
-#Baixando dados de distribuição de dvidendos e salvando num objeto
+#Baixando dados de distribuição de dividendos e salvando num objeto
 dividendos <- getDividends("BBDC3.SA", from = "2020-01-01", to = Sys.Date(), 
               env = parent.frame(), src = "yahoo", auto.assign = FALSE,
               auto.update = FALSE, verbose = FALSE, split.adjust = TRUE,
